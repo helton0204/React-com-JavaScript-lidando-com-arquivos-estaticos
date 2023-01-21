@@ -1,0 +1,29 @@
+@import-normalize; //@import-normalize pode ser usado em um arquivo CSS para importar o normalize.css em um projeto React
+@import './_variaveis.scss';
+
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    background-image: linear-gradient($azul-escuro, $azul-claro);
+    box-sizing: border-box;
+}
+
+body::-webkit-scrollbar{
+    width: 5px;
+}
+
+body::-webkit-scrollbar-thumb{
+    background-color: $azul-claro;
+    border-radius: 20px;
+}
+
+body::-webkit-scrollbar-track{
+    background: linear-gradient($azul-escuro, $azul-claro);
+}
+
+h1{
+    font-family: 'Roboto', sans-serif;
+}
+
+

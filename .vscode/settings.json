@@ -1,0 +1,15 @@
+{
+    "scss.lint.unknownAtRules": "ignore",
+}
+
+/*
+"scss.lint.unknownAtRules": "ignore" é uma configuração para um linter SCSS. O linter é uma ferramenta que verifica o código SCSS 
+em busca de erros ou problemas de estilo.
+
+A configuração "scss.lint.unknownAtRules": "ignore" diz ao linter para ignorar as regras @ desconhecidas no código SCSS. Isso 
+significa que, se o linter encontrar uma regra @ que ele não reconhece, ele não exibirá um erro ou alerta sobre isso. Em vez 
+disso, ele simplesmente ignorará essa regra e continuará verificando o resto do código.
+
+Essa configuração pode ser útil em situações em que você está usando uma regra @ que o linter não conhece, mas ainda assim deseja
+ verificar o código SCSS para outros erros ou problemas de estilo.
+*/
